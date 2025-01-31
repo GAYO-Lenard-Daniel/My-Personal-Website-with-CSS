@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        .Container {
+            display: grid;
+            grid-template-rows: auto auto auto auto auto auto;
+            row-gap: 10px;
+        }
+        div.Tabs {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            background-color: rgb(20, 247, 118);
+        }
+        p.Main {
+            text-align: justify;
+            text-indent: 45px;
+            font-size: 130%;
+            margin-right: 60px;
+            margin-left: 60px;
+            color: rgb(255, 255, 255);
+        }
+        h1.Title {
+            text-align: center;
+            margin-bottom: 10%;
+            margin-top: 70px;
+        }
+        .Content {
+            background-image: url(Folk\ Artists.jpg);
+            border-radius: 20px;
+            background-repeat: no-repeat;
+            padding: 20px;
+            background-position: center;
+            background-size: cover;
+            position: relative;
+            opacity: calc(80%);
+            background-color: brown;
+            text-shadow: 2px 2px #FF4500;
+        }
+        .Content h1, .Content p {
+            position: relative;
+            z-index: 2; 
+        }
+        .Content::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); 
+        }
+    </style>
+</head>
+<body>
+    <div class="Container">
+    <nav>
+    <div class="Tabs">
+        <div><h3>Home</h3></div>
+        <div><h3><a href="./Define.html">Definition of Folk</a></h3></div>
+        <div><h3><a href="./History.html">History of Folk</a></h3></div>
+        <div><h3><a href="./Underground.html">The Underground Scene</a></h3></div>
+        <div><h3><a href="./Artists.html">Folk Artists</a></h3></div>
+        <div><h3><a href="./About.html">About Me</a></h3></div>
+    </div>
+    </nav>
+    <div class="Content">
+    <h1 class="Title">60s - 70s Underground Folk Artists</h1> 
+    <p class="Main">"Good Music can be so hard to find". Ironically sung by Adam Levine as a feature from Gym Class Heroes' hit song, "Stereo Hearts". And it's true. Much of the music played in the radio as of late has been mediocre at best, to say the least. And it's not just in the radio, but especially through social media also! A lot of the music going viral in there is either a hit or miss depending on which side of tiktok you are. And it's such a mixed bag because you can hear some of the most ethereal, impactful, and incredible songs you've ever heard like "Sailor Song" by Gigi Perez. And then we've got songs like “abcdefu” by Gayle or "If We Ever Broke Up" by Mae Stephens that are some of the cringiest, most generic, songs to have ever been conceived. It's as if popular music has peaked in its saturation point. Not to say that all of pop music is trash, like some music elitists. There are some great artists working in Pop music today like Chappel Roan. But I think with the predominance of music streaming as a method of music consumption, we've really lost the value and appreciation for music. I believe that in my ventures in music that I have found some absolutely incredible, but supremely underrated artists. I think some of you can relate to the frustration of an artist you so deeply connect to that you believe will absolutely blow up in the near future, yet still remain so underappreciated. And there may be others that want to keep it that way to ensure that only you get to keep and enjoy the magic and the experience of said artists. But I believe that good music deserves to be recognized and spread as much as possible. And I hope that with this website, I’ll be able to do so and that you would enjoy and connect with it in the same way I did. 
+    </p>
+    </div>
+<nav>    
+<div class="Tabs">    
+    <div><h5>Home</h5></div>
+    <div><h5><a href="./Define.html">Definition of Folk</a></h5></div>
+    <div><h5><a href="./index.html">History of Folk</a></h5></div>
+    <div><h5><a href="./Underground.html">The Underground Scene</a></h5></div>
+    <div><h5><a href="./Artists.html">Folk Artists</a></h3></div>
+    <div><h5><a href="./About.html">About Me</a></h5></div>
+</div>
+</nav>
+</div>
+</body>
+</html>
